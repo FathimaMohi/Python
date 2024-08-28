@@ -6,12 +6,6 @@ elif x.isdigit():
      print('this is digit')
 else:
     print('this is spl character')
-#armstrong
-x=int(input('Enter the number'))
-if is_armstrong_number(x):
- print('its an armstrong number')
-else:
- print('its not an armstrong number')
 #century
 yr=int(input("Enter the year"))
 if(yr%100)==0:
@@ -156,9 +150,14 @@ y=['a','e','i','o','u','A','E','I','O','U']
 if x in y:
     print('it is vowel')
 else:
-    print('it is an consonant')
+    print('it is an consonant')'''  
 
-
+#armstrong
+x=int(input('Enter the number'))
+if is_armstrong(x):
+ print(f'its an armstrong number')
+else:
+ print(f'its not an armstrong number')
 
        
 
